@@ -1,0 +1,368 @@
+*{
+    font-family: arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    size: 100px;
+}
+.logo img{
+    width: 90px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #777;
+}
+nav a:hover, .active {
+    background-color: #666;
+    color: #fff;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('../image/eu.PNG');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+.column{
+    flex-direction: column;
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1 {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 1px 1px #000;
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+}
+.banner_headline h2 {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+.banner_options {
+    height: 190px;
+    display: flex;
+}
+.banner1, .banner2,.banner3{
+    flex: 1;
+    padding: 20px;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 14px;
+}
+.banner1{
+    background-color: #888;
+    color: #fff;
+}
+.banner2{
+    background-color: #777;
+    color: #fff;
+}
+.banner3{
+    background-color: #666;
+    color: #fff;
+}
+.banner_tittle{
+    font-size: 21px;
+}
+.banner_desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    font-size: 15px;
+
+}
+.banner_options a{
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #777;
+}
+.banner_day {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-bottom: 1px solid #aaa;
+    justify-content: space-between;
+}
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget_tittle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_tittle_text{
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_tittle_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+}
+#geral .widget-body {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+ }
+ .widget_body {   
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.document_topics {
+    background-color: #777;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.document_topics img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.document_topics:hover img {
+    height: 250px;
+    width: 250px;
+    margin-top: -50px;
+    margin-left: -50px;
+    position: absolute;
+}
+.widget_departments h4,
+.widget_departments a{
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.widget_desc{
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+
+.widget_contats{
+    display: block;
+    font-size: 15px;
+}
+
+.phones,
+.email,
+.page{
+    display: flex;
+    align-items: center;
+}
+
+.phones,
+.page{
+    border-top: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e6e6e6;  
+}
+
+.widget_contats img{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+article a{
+    text-decoration: none;
+}
+article .news_tittle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 23px;
+}
+article .news_resume{
+    margin-bottom: 25px;
+    color: #777;
+    font-size: 15px;
+    line-height: 21px;
+}
+article .news_data{
+    display: flex;
+}
+article .news_posted_at{
+    background-color: #777;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+article .news_comments{
+    background-color: #555;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 25px;
+}
+article:hover img{
+    border-radius: 30px;
+}
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{
+    display: flex;
+}
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+}
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    padding: 20px;
+}
+footer a {
+    color: #FFF;
+}
+.fm_1{
+    background-color: #555;
+}
+.fm_2{
+    background-color: #666;
+}
+.fm_3{
+    background-color: #777;
+}
+.footer_area{
+    margin-top: 20px;
+    display: flex;
+}
+.footer_areaitem{
+    flex: 1;
+    color: #fff;
+}
+.flexcolumn{
+    flex-direction: column;
+}
+footer .widget_tittle_text{
+    color: #FFF;
+}
+footer .widget_tittle_bar {
+    background-color: #FFF;
+}
+.footer_copy {
+    border-top: 1px solid #777;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #ddd;
+}
+@media (max-width: 600px){
+    .banner_headline h1{
+        font-size: 50px;
+        margin-left: 20px;
+        max-width: 350px;
+    }
+    .banner_headline h2{
+        font-size: 18px;
+        margin-left: 20px;
+        max-width: 320px;
+        margin-bottom: 20px;
+    }
+    .banner_options{
+        flex-direction: column;
+        min-height: auto;
+    }
+    .banner1,.banner2,.banner3{
+        border-radius: 0;
+    }
+    #geral{
+        display: flex;
+        margin-top: 360px;
+        flex-direction:row;
+    }
+    #lasts_posts{
+        margin-left: 20px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .email{
+        margin-bottom: 10px;
+    }
+    .widget{
+        margin-left: 20px;
+    }
+    .footer_copy{
+        margin-left: 20px;
+    }
+}

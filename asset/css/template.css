@@ -21,7 +21,8 @@ header{
     size: 70px;
 }
 .logo img{
-    width: 90px;
+    width: 70px;
+    margin: 10px; 
 }
 .menu{
     display: flex;
@@ -325,7 +326,7 @@ footer .widget_tittle_bar {
 }
 @media (max-width: 600px){
     .banner_headline h1{
-        font-size: 50px;
+        font-size: 30px;
         margin-left: 20px;
         max-width: 350px;
     }
@@ -364,5 +365,9 @@ footer .widget_tittle_bar {
     }
     .footer_copy{
         margin-left: 20px;
+    }
+    .header {
+        flex-direction: row;
+        font-size: 10px;
     }
 }

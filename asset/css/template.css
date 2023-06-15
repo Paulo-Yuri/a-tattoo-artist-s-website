@@ -18,7 +18,7 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    size: 100px;
+    size: 70px;
 }
 .logo img{
     width: 90px;
